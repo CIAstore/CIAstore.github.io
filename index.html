@@ -21,7 +21,15 @@
     <a href="games/terraira.htm">
     <img src="images/terraira.jpg"><h2>泰拉瑞亚</h2><p>泰拉瑞亚3DS版，由505Games发布，由Codeglue开发。</br>3DS版是一个由Re-Logic开发的电脑版改造的版本。</p>
     </a>
-    <script type="text/javascript" src="js/text.js">
-    </script>
+<script>
+  fetch('https://v1.hitokoto.cn')
+    .then(response => response.json())
+    .then(data => {
+      const hitokoto = document.getElementById('hitokoto_text')
+      hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+      hitokoto.innerText = data.hitokoto
+    })
+    .catch(console.error)
+</script>
 </body>
 </html>
