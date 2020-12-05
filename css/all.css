@@ -1,0 +1,16 @@
+a:link.back {
+    color:black;
+    text-decoration: none;
+}
+
+a:visited.back {
+    color: black;
+}
+
+a:hover.back {
+    text-decoration:none;
+}
+
+a:active.back {
+    text-decoration:none;
+} 

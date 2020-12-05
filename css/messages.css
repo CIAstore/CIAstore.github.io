@@ -1,0 +1,44 @@
+.one {
+    background-color:rgba(224, 24, 24, 0.637);
+    color:white;
+    margin:20px;
+    padding:20px;
+} 
+
+.two {
+    background-color:rgba(155, 148, 148, 0.637);
+    color:white;
+    margin:20px;
+    padding:20px;
+} 
+
+.three {
+    background-color:rgba(224, 161, 24, 0.637);
+    color:white;
+    margin:20px;
+    padding:20px;
+} 
+
+.messages {
+    background-color:black;
+    color:white;
+    margin:20px;
+    padding:20px;
+} 
+
+a:link.games {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited.games {
+    color: white;
+}
+
+a:hover.games {
+    text-decoration:underline;
+}
+
+a:active.games {
+    text-decoration:underline;
+} 
